@@ -9,6 +9,33 @@ const GlobalStyle = createGlobalStyle`
 
  body {
     font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+ }
+
+ h1 {
+     font-size: 4.8rem;
+ }
+
+ h2 {
+     font-size: 3.6rem;
+ }
+
+ h3 {
+     font-size: 2.4rem;
+ }
+
+ h4 {
+     font-size: 2rem;
+ }
+
+ h5,h6 {
+     font-size: 1rem;
+     font-weight: bold;
+     letter-spacing: 0.05rem;
+ }
+
+ p,input, a, li {
+     font-size: 1.2rem;
  }
 `;
 
