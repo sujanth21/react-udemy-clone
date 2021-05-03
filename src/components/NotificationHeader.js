@@ -1,15 +1,18 @@
 import styled from "styled-components";
+import Icon from "./Icon";
 
 const NotificationHeader = ({ contentBold, contentLight, bgColor }) => {
   const onRemoveHandler = (e) => {
-    e.target.parentElement.remove();
+    e.target.parentElement.parentElement.parentElement.remove();
   };
 
   return (
     <Notification bgColor={bgColor}>
       <h5>{contentBold}</h5>
       <p>{contentLight}</p>
-      <i className='fas fa-times' onClick={onRemoveHandler}></i>
+      <span>
+        <Icon className='icon' name='fas fa-times' onClick={onRemoveHandler} />
+      </span>
     </Notification>
   );
 };
@@ -34,14 +37,10 @@ const Notification = styled.div`
     font-size: 1rem;
   }
 
-  i {
+  span {
     position: absolute;
     top: auto;
     right: 2rem;
-
-    font-size: 1.2rem;
-    opacity: 0.7;
-    cursor: pointer;
   }
 `;
 
