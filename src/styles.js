@@ -16,5 +16,6 @@ export const Link = styled.a`
 
   &:hover {
     background: #004450;
+    color: #fff;
   }
 `;

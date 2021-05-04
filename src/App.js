@@ -9,6 +9,7 @@ import BrandsBar from "./components/BrandsBar";
 import Footer from "./components/Footer";
 
 import GlobalStyle from "./components/GlobalStyle";
+import CurrentLearning from "./components/CurrentLearning";
 
 const App = () => {
   return (
@@ -24,7 +25,9 @@ const App = () => {
         <CategoriesBar />
         <Hero />
       </header>
-      <main></main>
+      <main>
+        <CurrentLearning />
+      </main>
       <footer>
         <TeachBar />
         <BrandsBar />

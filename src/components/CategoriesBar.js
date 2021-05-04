@@ -16,7 +16,7 @@ const CategoriesBar = () => {
   return (
     <StyledCategoryBar>
       {categories.map((category) => {
-        return <a>{category}</a>;
+        return <a href='#'>{category}</a>;
       })}
     </StyledCategoryBar>
   );
@@ -30,12 +30,16 @@ const StyledCategoryBar = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
   a {
+    padding: 0;
     padding-right: 2rem;
     color: #666;
     cursor: pointer;
     font-size: 0.8rem;
+
+    &:hover {
+      color: #0f7c90;
+    }
   }
 `;
 
