@@ -12,6 +12,11 @@ const GlobalStyle = createGlobalStyle`
     font-size: 62.5%;
  }
 
+ input, textarea {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+ }
+
  h1 {
      font-size: 4.8rem;
  }
@@ -34,9 +39,11 @@ const GlobalStyle = createGlobalStyle`
      letter-spacing: 0.05rem;
  }
 
- p,input, a, li {
-     font-size: 1rem;
+ p,input, a, li, span {
+     font-size: 0.85rem;
  }
+
+
 `;
 
 export default GlobalStyle;
