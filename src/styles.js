@@ -19,3 +19,15 @@ export const Link = styled.a`
     color: #fff;
   }
 `;
+
+export const BtnOutline = styled.a`
+  text-decoration: none;
+  color: #666;
+  border: ${(props) => props.borderValue || "1px solid #333"};
+  padding: 0.2rem 1.5rem;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
