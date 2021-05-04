@@ -43,6 +43,9 @@ const GlobalStyle = createGlobalStyle`
      font-size: 0.85rem;
  }
 
+ footer {
+     margin: 3rem 0rem .5rem 0rem;
+ }
 
 `;
 

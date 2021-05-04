@@ -55,6 +55,10 @@ const StyledBrandsBar = styled.div`
     margin-right: 1.2rem;
     height: 1.4rem;
   }
+
+  .brands-img:last-child {
+    margin-right: 0;
+  }
 `;
 
 export default BrandsBar;

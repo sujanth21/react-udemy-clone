@@ -5,9 +5,10 @@ import Hero from "./components/Hero";
 
 // Footer Components
 import TeachBar from "./components/TeachBar";
+import BrandsBar from "./components/BrandsBar";
+import Footer from "./components/Footer";
 
 import GlobalStyle from "./components/GlobalStyle";
-import BrandsBar from "./components/BrandsBar";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
       <footer>
         <TeachBar />
         <BrandsBar />
+        <Footer />
       </footer>
     </div>
   );
