@@ -43,6 +43,16 @@ const GlobalStyle = createGlobalStyle`
      font-size: 0.85rem;
  }
 
+ a {
+    text-decoration: none;
+    padding-bottom: 1rem;
+    color: #666;
+
+    &:hover {
+        color: #0f7c90;
+    }
+ }
+
  footer {
      margin: 3rem 0rem .5rem 0rem;
  }
