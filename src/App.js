@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import GlobalStyle from "./components/GlobalStyle";
 import CurrentLearning from "./components/CurrentLearning";
 import BusinessBar from "./components/BusinessBar";
+import LearningNext from "./components/LearningNext";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
       <main>
         <CurrentLearning />
         <BusinessBar />
+        <LearningNext />
       </main>
       <footer>
         <TeachBar />
