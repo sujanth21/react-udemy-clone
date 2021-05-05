@@ -12,6 +12,11 @@ import GlobalStyle from "./components/GlobalStyle";
 import CurrentLearning from "./components/CurrentLearning";
 import BusinessBar from "./components/BusinessBar";
 import LearningNext from "./components/LearningNext";
+import EnrolledSuggestions from "./components/EnrolledSuggestions";
+import WishlistCourses from "./components/WishlistCourses";
+import StudentsViewing from "./components/StudentsViewing";
+import TopCourses from "./components/TopCourses";
+import FeaturedCourses from "./components/FeaturedCourses";
 
 const App = () => {
   return (
@@ -31,6 +36,11 @@ const App = () => {
         <CurrentLearning />
         <BusinessBar />
         <LearningNext />
+        <EnrolledSuggestions />
+        <WishlistCourses />
+        <StudentsViewing />
+        <TopCourses />
+        <FeaturedCourses />
       </main>
       <footer>
         <TeachBar />
