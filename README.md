@@ -10,4 +10,4 @@ This project developed to practise React JS, HTML,CSS skills
 
 Project Demo: https://udemy-clone-sujanth.herokuapp.com/
 
-![screenshot](https://github.com/sujanth21/microsoft_landing_page/blob/master/img/landing_ms.PNG)
+![screenshot](https://github.com/sujanth21/react-udemy-clone/blob/master/src/img/screenshot.PNG)
