@@ -32,6 +32,16 @@ const StyledTeachBar = styled.div`
   p {
     color: #3b3c37;
   }
+
+  @media (max-width: 1300px) {
+    .left-content {
+      text-align: center;
+    }
+
+    .right-content {
+      margin-top: 1.5rem;
+    }
+  }
 `;
 
 export default TeachBar;

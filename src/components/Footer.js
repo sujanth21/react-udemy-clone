@@ -108,6 +108,35 @@ const StyledFooter = styled.div`
       color: #777;
     }
   }
+
+  @media (max-width: 700px) {
+    .links-left {
+      grid-gap: 4rem;
+
+      a {
+        font-size: 0.7rem;
+      }
+    }
+  }
+  @media (max-width: 500px) {
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+    }
+    .links-left {
+      grid-gap: 2rem;
+      display: flex;
+      flex-direction: column;
+
+      a {
+        font-size: 0.9rem;
+      }
+    }
+
+    .links-right {
+      margin-top: 1rem;
+    }
+  }
 `;
 
 export default Footer;

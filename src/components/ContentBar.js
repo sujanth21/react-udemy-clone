@@ -11,6 +11,10 @@ const StyledContentBar = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 1300px) {
+    flex-direction: column;
+  }
 `;
 
 export default ContentBar;

@@ -78,6 +78,20 @@ const StyledCurrentLearning = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
   }
+
+  @media (max-width: 1150px) {
+    width: 100%;
+    .current-learning-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 840px) {
+    width: 100%;
+    .current-learning-cards {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 `;
 
 export default CurrentLearning;

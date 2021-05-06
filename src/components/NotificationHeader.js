@@ -42,6 +42,42 @@ const Notification = styled.div`
     top: auto;
     right: 2rem;
   }
+
+  @media (max-width: 900px) {
+    h5,
+    p {
+      font-size: 0.8rem;
+    }
+  }
+  @media (max-width: 625px) {
+    flex-direction: column;
+    p {
+      padding-top: 0.2rem;
+    }
+  }
+  @media (max-width: 490px) {
+    p {
+      padding-top: 0.2rem;
+    }
+
+    span {
+      right: 1rem;
+    }
+  }
+  @media (max-width: 450px) {
+    h5 {
+      font-size: 0.7rem;
+    }
+    p {
+      padding-top: 0.1rem;
+      font-size: 0.6rem;
+      text-align: center;
+    }
+
+    span {
+      display: none;
+    }
+  }
 `;
 
 export default NotificationHeader;

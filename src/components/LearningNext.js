@@ -53,6 +53,27 @@ const StyledLearningNext = styled.div`
     margin-top: 1rem;
     text-align: center;
   }
+
+  @media (max-width: 900px) {
+    h4,
+    h5 {
+      text-align: center;
+    }
+
+    h4 {
+      font-size: 1.5rem;
+    }
+    h5 {
+      font-size: 1.2rem;
+    }
+
+    .learning-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 `;
 
 export default LearningNext;

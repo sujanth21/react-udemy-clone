@@ -58,6 +58,19 @@ const StyledCourses = styled.div`
     grid-gap: 1rem;
     margin-top: 1rem;
   }
+
+  @media (max-width: 1400px) {
+    .suggested-courses {
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+    }
+  }
+  @media (max-width: 1100px) {
+    .suggested-courses {
+      grid-template-columns: repeat(1, 1fr);
+      justify-items: start;
+    }
+  }
 `;
 
 export default Courses;

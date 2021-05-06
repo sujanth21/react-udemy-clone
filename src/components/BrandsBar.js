@@ -59,6 +59,26 @@ const StyledBrandsBar = styled.div`
   .brands-img:last-child {
     margin-right: 0;
   }
+
+  @media (max-width: 1300px) {
+    padding-top: 1rem;
+    h4 {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .right-content {
+      display: flex;
+      flex-direction: column;
+
+      .brands-img {
+        height: 2rem;
+        margin: 1rem 0;
+      }
+    }
+  }
 `;
 
 export default BrandsBar;

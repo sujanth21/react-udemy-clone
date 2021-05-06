@@ -10,6 +10,10 @@ const GlobalStyle = createGlobalStyle`
  body {
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
+
+    @media (max-width: 1650px) {
+        font-size: 48%;
+    }
  }
 
  input, textarea {

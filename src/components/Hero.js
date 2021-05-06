@@ -47,6 +47,60 @@ const StyledHero = styled.div`
     font-weight: 300;
     padding-bottom: 0.2rem;
   }
+
+  @media (max-width: 1150px) {
+    width: 100%;
+
+    .hero-content {
+      position: absolute;
+      top: 2rem;
+      left: 3rem;
+
+      h3 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  @media (max-width: 840px) {
+    .hero-content {
+      top: 4rem;
+      left: 4rem;
+
+      h3 {
+        font-size: 1.3rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  @media (max-width: 650px) {
+    .hero-content {
+      width: 100%;
+    }
+  }
+  @media (max-width: 500px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hero-content {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .hero-content {
+      display: none;
+    }
+  }
 `;
 
 export default Hero;

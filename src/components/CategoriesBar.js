@@ -15,9 +15,11 @@ const CategoriesBar = () => {
   ];
   return (
     <StyledCategoryBar>
-      {categories.map((category) => {
-        return <a href='#'>{category}</a>;
-      })}
+      <div className='categories'>
+        {categories.map((category) => {
+          return <a href='#'>{category}</a>;
+        })}
+      </div>
     </StyledCategoryBar>
   );
 };
@@ -28,6 +30,7 @@ const StyledCategoryBar = styled.div`
   background-color: #fbfbf8;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   a {
@@ -39,6 +42,18 @@ const StyledCategoryBar = styled.div`
 
     &:hover {
       color: #0f7c90;
+    }
+  }
+
+  @media (max-width: 1150px) {
+    min-height: 8vh;
+    text-align: center;
+
+    .categories {
+      a {
+        font-size: 0.7rem;
+        padding-right: 1rem;
+      }
     }
   }
 `;
